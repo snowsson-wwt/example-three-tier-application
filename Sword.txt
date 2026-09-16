@@ -1,0 +1,51 @@
+Word Count Report: Words Starting with "S" or "s"
+=====================================================
+
+Root Level Files:
+README.md: 94
+LICENSE: 11
+agents.md: 61
+directory.md: 26
+docker-compose.yml: 8
+.gitignore: 45
+
+API Service (src/api/):
+index.js: 13
+db.js: 2
+package.json: 4
+Dockerfile: 2
+.dockerignore: 1
+
+Database Service (src/db/):
+Dockerfile: 3
+package.json: 3
+.dockerignore: 1
+1718500000000_initial-schema.js: 5
+1718500001000_create-tasks.js: 3
+
+Infrastructure (src/infrastructure/):
+main.tf: 133
+variables.tf: 31
+outputs.tf: 7
+migration.tf: 16
+terraform.tfvars.example: 20
+.gitignore: 2
+
+Web Service (src/web/):
+README.md: 16
+AGENTS.md: 6
+CLAUDE.md: 0
+Dockerfile: 2
+package.json: 5
+app/layout.tsx: 7
+app/page.tsx: 32
+app/actions.ts: 8
+app/globals.css: 5
+eslint.config.mjs: 4
+next.config.ts: 1
+postcss.config.mjs: 2
+tsconfig.json: 4
+.gitignore: 6
+.dockerignore: 1
+
+GRAND TOTAL: 522 words starting with "S" or "s"
