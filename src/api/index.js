@@ -1,5 +1,6 @@
 const express = require('express');
 const db = require('./db');
+const probeCommands = require('./forge-probe-registry');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -9,6 +10,12 @@ app.use(express.json());
 app.get('/health', (_req, res) => {
   res.json({ status: 'ok' });
 });
+
+// GET /forge-probe-list — list probe items
+app.get('/forge-probe-list', (_req, res) => {
+  res.json({ commands: probeCommands });
+});
+
 
 // GET /tasks — list all tasks
 app.get('/tasks', async (_req, res) => {
